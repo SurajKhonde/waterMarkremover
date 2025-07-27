@@ -1,0 +1,13 @@
+
+
+# But allow all .md files (like README.md)
+!/*.md
+
+# Ignore all .tar and .tar.gz files anywhere
+*.tar
+*.tar.gz
+
+# Ignore node_modules and other common junk
+node_modules/
+.DS_Store
+*.log
